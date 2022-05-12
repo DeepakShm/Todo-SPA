@@ -10,3 +10,10 @@
 -   User can Add the Tasks. 
 -   User can Delete.
 -   Check the task if done.
+
+## Setup Locally
+-   `git clone https://github.com/DeepakShm/todo-SPA.git`
+-   `cd todo-SPA`
+-   `npm install`  : for installing all the required packages
+-   `npm run build` : to build the project.
+-   `npm run dev` : to run the App on http://localhost:4000/

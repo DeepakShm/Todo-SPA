@@ -1,1 +1,59 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><base href="./"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&amp;display=swap" rel="stylesheet"><meta name="description" content=""><title>TODO SPA</title><script defer="defer" src="main.48654941f712dd7b8227.js"></script></head><body><main class="main"><header class="p-20 header"><nav class="d-flex-row items-center justify-between"><div class="d-flex-row items-center"><img class="logo" src="./assets/logo.svg" alt="logo" width="25" height="25"><h2>todo.</h2></div><div class="menu"><ul class="nav-links"><li><a href="home" id="home">Home</a></li><li><div class="dropdown"><button class="dropbtn">Category</button><div class="dropdown-content"><a href="tasks?category=all">All Tasks</a> <a href="tasks?category=work">Work Project</a> <a href="tasks?category=personal">Personal Errands</a> <a href="tasks?category=grocery">Grocery</a> <a href="tasks?category=school">School</a></div></div></li></ul></div></nav></header><div class="d-flex-row justify-between wrapper"><div class="content p-20" id="outlet"></div></div><button><a href="add" class="fab-btn" id="add">+</a></button></main><div class="toast" id="toast"><div><h3>Task Added !!</h3></div></div><noscript>Your browser does not support JavaScript!</noscript></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="./" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="" />
+    <title>TODO SPA</title>
+    <script defer="defer" src="main.48654941f712dd7b8227.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <header class="p-20 header">
+        <nav class="d-flex-row items-center justify-between">
+          <div class="d-flex-row items-center">
+            <img
+              class="logo"
+              src="./assets/logo.svg"
+              alt="logo"
+              width="25"
+              height="25"
+            />
+            <h2>todo.</h2>
+          </div>
+          <div class="menu">
+            <ul class="nav-links">
+              <li><a href="home" id="home">Home</a></li>
+              <li>
+                <div class="dropdown">
+                  <button class="dropbtn">Category</button>
+                  <div class="dropdown-content">
+                    <a href="tasks?category=all">All Tasks</a>
+                    <a href="tasks?category=work">Work Project</a>
+                    <a href="tasks?category=personal">Personal Errands</a>
+                    <a href="tasks?category=grocery">Grocery</a>
+                    <a href="tasks?category=school">School</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="d-flex-row justify-between wrapper">
+        <div class="content p-20" id="outlet"></div>
+      </div>
+      <button><a href="add" class="fab-btn" id="add">+</a></button>
+    </main>
+    <div class="toast" id="toast">
+      <div><h3>Task Added !!</h3></div>
+    </div>
+    <noscript>Your browser does not support JavaScript!</noscript>
+  </body>
+</html>
